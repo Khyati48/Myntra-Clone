@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://constant.myntassets.com/www/fonts/WhitneyHTF-Book.eot'); */
+    
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Whitney'; */
+    padding:0;
+    margin:0;
+}
+
+header{
+    position: sticky;
+    top:0;
+    background-color: white;
+ height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.1)1.5px 1.95px 1.6px;
+}
+
+
+@media (max-width:1323px){
+
+    nav ul li {
+        list-style: none;
+        padding: 0px 3px;
+        font-size:10px;
+    }
+
+    .container{
+        padding:0 2vw;
+    }
+
+    header{
+        /* background:pink; */
+        height: 177px;
+}
+
+ nav{
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .right{
+    flex-direction: column;
+ }
+
+ .rightbox{
+    display: flex;
+    margin:11px;
+ }
+
+.section2{
+    margin: -21px 9px;
+    font-size: 10px;
+}
+
+.section4{
+    margin: -21px 9px;
+    font-size: 10px;
+}
+
+
+}
+
+
+
+
+
+
+.left img{
+    width:49px;
+    height:55px;
+}
+
+.container{
+    /* margin:13px 0px; */
+    padding:0 6vw;
+    /* max-width: 23px; */
+    /* background-color: blue;  */
+    /* margin:auto; */
+}
+
+nav{
+    font-size: 14px;
+    padding-top:7px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 12px;
+}
+.section1{
+    width :100%;
+    background-color: #ffffffe4;
+    padding: 26px 0px;
+}
+.search-bar{
+    width: 45vw;
+    height: 21px;
+    padding:7px 17px;
+    background-color: rgb(247, 247, 248);
+    border:0.5px solid grey;
+    border-radius:3px;
+    margin-top:8px;
+    margin-right: 11px;
+    /* margin-left:201px; */
+} 
+.swiper{
+    width:100%;
+    height:fit-content;
+}
+.swiper-slide img{
+    width:100%;
+}
+.swiper .swiper-pagination-bullet-active{
+    background-color: grey;
+}
+
+.section2{
+    margin:0px 10px;
+}
+
+.deal{
+    flex-flow: wrap;
+    width:100%;
+}
+img.item {
+    width: 12vw;
+    margin: 0 1px;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Whitney'; */
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+.section3 {
+    margin: 4px 0px;
+    padding: 0px;
+}
+img.item-gif {
+    width: 100%;
+}
+.section4{
+        margin:0px 10px;
+}
+
+
+
+/* .item {
+    width: 12vw;
+    height:47vh;
+    margin: 0px 2px;
+    padding:0px 1px;
+} */
+
+
+footer{
+    padding:23px;
+    text-align:center;
+    justify-content: center;
+    box-shadow:rgb(0 0 0 /24%)0px 3px 8px;
+}
+
+
+
+
